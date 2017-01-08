@@ -1,0 +1,259 @@
+.techs{
+    padding: 5px;
+}
+
+.techs div {
+    display: inline-block;
+}
+
+.aws-tech {
+    background: url(../images/technologies/aws.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.android-tech {
+    background: url(../images/technologies/android.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.angular1-tech {
+    background: url(../images/technologies/angular1.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.angular2-tech {
+    background: url(../images/technologies/angular2.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.apple-tech {
+    background: url(../images/technologies/apple.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.csharp-tech {
+    background: url(../images/technologies/csharp.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.cplusplus-tech {
+    background: url(../images/technologies/cplusplus.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.node-tech {
+    background: url(../images/technologies/node.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.docker-tech {
+    background: url(../images/technologies/docker.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.elastic-tech {
+    background: url(../images/technologies/elastic.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.github-tech {
+    background: url(../images/technologies/github.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.elastic-tech {
+    background: url(../images/technologies/elastic.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.github-tech {
+    background: url(../images/technologies/github.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.elastic-tech {
+    background: url(../images/technologies/elastic.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.github-tech {
+    background: url(../images/technologies/github.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.aws-tech {
+    background: url(../images/technologies/aws.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.android-tech {
+    background: url(../images/technologies/android.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.angular1-tech {
+    background: url(../images/technologies/angular1.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.angular2-tech {
+    background: url(../images/technologies/angular2.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.apple-tech {
+    background: url(../images/technologies/apple.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.docker-tech {
+    background: url(../images/technologies/docker.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.elastic-tech {
+    background: url(../images/technologies/elastic.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.github-tech {
+    background: url(../images/technologies/github.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.go-tech {
+    background: url(../images/technologies/go.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.java-tech {
+    background: url(../images/technologies/java.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.jenkins-tech {
+    background: url(../images/technologies/jenkins.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.kibana-tech {
+    background: url(../images/technologies/kibana.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.logstash-tech {
+    background: url(../images/technologies/logstash.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.mongo-tech {
+    background: url(../images/technologies/mongodb.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.mysql-tech {
+    background: url(../images/technologies/mysql.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.oracle-tech {
+    background: url(../images/technologies/oracle.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.postgresql-tech {
+    background: url(../images/technologies/postgresql.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.rancher-tech {
+    background: url(../images/technologies/rancher.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.redis-tech {
+    background: url(../images/technologies/redis.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.sqlite-tech {
+    background: url(../images/technologies/sqlite.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.sqlserver-tech {
+    background: url(../images/technologies/sqlserver.png) center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
