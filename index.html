@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Adrián Polo Alcaide - CV Online</title>
@@ -9,13 +9,13 @@
 </head>
 <body>
 <header class="full-height full-image">
-    <nav>
+    <nav id="nav">
         <ul>
-            <li><a href="#about-me">About me</a></li>
-            <li><a href="">Experience</a></li>
-            <li><a href="">Education</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Contact</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+            <li class="nav-item"><a href="#interests">Interests</a></li>
+            <li class="nav-item"><a href="#education">Education</a></li>
+            <li class="nav-item"><a href="#experience">Experience</a></li>
+            <li class="nav-item"><a href="#about-me">About me</a></li>
         </ul>
     </nav>
     <div class="title">
@@ -105,7 +105,7 @@
                                 <div class="android-tech"></div>
                             </div>
                             <hr>
-                            <div>abril 2016 - Now</div>
+                            <div>noviembre 2015 - abril 2016</div>
                         </header>
                     </article>
                 </li>
@@ -125,7 +125,7 @@
                                 <div class="oracle-tech"></div>
                             </div>
                             <hr>
-                            <div>abril 2016 - Now</div>
+                            <div>septiembre 2014 - noviembre 2015</div>
                         </header>
                     </article>
                 </li>
@@ -144,7 +144,7 @@
                                 <div class="oracle-tech"></div>
                             </div>
                             <hr>
-                            <div>abril 2016 - Now</div>
+                            <div>junio 2013 - julio 2014</div>
                         </header>
                     </article>
                 </li>
@@ -162,17 +162,14 @@
                                 <div class="mysql-tech"></div>
                             </div>
                             <hr>
-                            <div class="date">abril 2016 - Now</div>
+                            <div class="date">enero 2010 - septiembre 2011</div>
                         </header>
                     </article>
                 </li>
             </ul>
         </div>
     </section>
-
     <section id="education" class="article-section">
-        <div>
-        </div>
         <header class="section-header">
             Education
         </header>
@@ -251,30 +248,81 @@
             </ul>
         </div>
     </section>
-    <section id="interests">
-        <div>
-            <article>
-                <header class="header-sections">
-                    Interests
-                </header>
-            </article>
-        </div>
+    <section id="interests" class="article-section">
+        <article>
+            <header class="section-header">
+                Interests
+            </header>
+            <div class="container">
+                <div class="col-8">
+                    <p class="paragraf">
+                        Mis intereses son muy variados, pero los más destacables son la fotografía y el viajar.<br>
+                        Me encanta recorrer el mundo con mi cámara y buena compañía y sobre el deporte que más me gusta
+                        es
+                        el esquí, el cual llevo practicando desde los 3 años<br>
+                    </p>
+                </div>
+                <div class="col-4 video-container">
+                    <video width="340" height="300" controls>
+                        <source src="videos/ski.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </article>
     </section>
-    <section id="contact">
-        <header class="header-sections">
+    <section id="contact" class="article-section">
+        <header class="section-header">
             Contact
         </header>
-        <div>
-            <form>
-                <div>
-                    <label for="full-name">Name:</label><input type="text" name="full-name" id="full-name" required>
-                </div>
-                <div class="form-input">
-                    <button id="send" type="submit" name="submit">Send</button>
-                </div>
-            </form>
+        <div class="container">
+            <div class="col-6">
+                <form id="contact-form" novalidate>
+                    <div class="input-contact" id="full-name-container">
+                        <label for="full-name">Nombre Completo:</label>
+                        <input type="text" name="full-name" id="full-name" required>
+                    </div>
+                    <div class="input-contact" id="email-container">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="input-contact" id="acknowledge-container">
+                        <p>Como me has conocido:</p>
+                        <label for="acknowledge-1">Twitter</label>
+                        <input type="radio" name="acknowledge" id="acknowledge-1" value="Twitter" required>
+                        <br>
+                        <label for="acknowledge-2">LinkedIn</label>
+                        <input type="radio" name="acknowledge" id="acknowledge-2" value="LinkedIn" required>
+                        <br>
+                        <label for="acknowledge-3">Github</label>
+                        <input type="radio" name="acknowledge" id="acknowledge-3" value="Github" required>
+                        <br>
+                        <label for="acknowledge-4">Other</label>
+                        <input type="radio" name="acknowledge" id="acknowledge-4" value="Other" required>
+                    </div>
+                    <div class="input-contact" id="phone-container">
+                        <label for="phone">Telefono:</label>
+                        <input type="text" name="phone" id="phone" required>
+                    </div>
+                    <div class="input-contact" id="message-container">
+                        <label for="message">Mensaje:</label><br>
+                        <textarea name="message" id="message" cols="40" rows="10" required></textarea>
+                    </div>
+                    <div class="input-contact">
+                        <button id="send" type="submit" name="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-6">
+                <ul class="social-links">
+                    <li><a href="mailto:a.whole.dev@gmail.com"><img src="images/social/email.png" alt="Email"> <span>Email</span></a></li>
+                    <li><a href="https://github.com/wholedev"><img src="images/social/github.png" alt="Email"> <span>Github</span></a></li>
+                    <li><a href="https://es.linkedin.com/in/adrianpolo"><img src="images/social/linkedin.png" alt="Email"> <span>Linkedin</span></a></li>
+                    <li><a href="https://twitter.com/apoloa92"><img src="images/social/twitter.png" alt="Email"> <span>Twitter</span></a></li>
+                </ul>
+            </div>
         </div>
     </section>
+    <script src="scripts/index.js"></script>
 </div>
 </body>
 </html>
