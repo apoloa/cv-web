@@ -18,8 +18,7 @@ form.addEventListener('submit', function (event) {
     var inputMessage = document.getElementById('message');
     var inputMessageContainer = document.getElementById('message-container');
 
-
-    if (!inputFullName.checkValidity()) {
+    if (!inputFullName.value.length > 0) {
         inputFullName.focus();
         inputFullNameContainer.style.borderColor = 'red';
         event.preventDefault();
@@ -28,7 +27,7 @@ form.addEventListener('submit', function (event) {
         inputFullNameContainer.style.borderColor = 'transparent';
     }
 
-    if (!inputEmail.checkValidity()) {
+    if (!validateEmail(inputEmail.value)) {
         inputEmail.focus();
         inputEmailContainer.style.borderColor = 'red';
         event.preventDefault();
@@ -45,7 +44,7 @@ form.addEventListener('submit', function (event) {
         inputAcknowledgeContainer.style.borderColor = 'transparent';
     }
 
-    if (!inputPhone.checkValidity()) {
+    if (!inputPhone.value.length > 0) {
         inputPhone.focus();
         inputPhoneContainer.style.borderColor = 'red';
         event.preventDefault();
@@ -58,8 +57,8 @@ form.addEventListener('submit', function (event) {
     } else {
         inputPhoneContainer.style.borderColor = 'transparent';
     }
-    debugger;
-    if (!inputMessage.value.length > 0) {
+    var words = inputMessage.value.split(' ');
+    if (!inputMessage.value.length > 0 || words.length > 150) {
         inputMessage.focus();
         inputMessageContainer.style.borderColor = 'red';
         event.preventDefault();
@@ -121,4 +120,9 @@ function scrollToElement (element) {
     } else {
         element.lastJump = null;
     }
+}
+
+function validateEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
 }
