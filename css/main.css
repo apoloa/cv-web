@@ -62,10 +62,12 @@ nav li a {
 }
 
 a:hover {
-    background: black;
     color: white;
+    animation-name: backcolor-frame;
+    animation-duration: 2s;
 }
-a:visited{
+
+a:visited {
     background: transparent;
     color: black;
 }
@@ -194,4 +196,26 @@ a:visited{
 .social-links img {
     width: 50px;
     height: 50px;
+}
+
+/*
+    KEYFRAMES
+ */
+
+@keyframes backcolor-frame {
+    0% {
+        background-color: #240601;
+    }
+    25% {
+        background-color: #1f0105;
+    }
+    50% {
+        background-color: #1a010c;
+    }
+    75% {
+        background-color: #150110;
+    }
+    100% {
+        background-color: #0f0110;
+    }
 }
